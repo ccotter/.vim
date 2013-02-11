@@ -1,0 +1,8 @@
+My vim configuration as a git repository.
+
+  Easily manage plugins, .vimrc settings. Uses pathogen to load plugins.
+
+Installing
+
+  Run the setup.sh script when installing these vim files to a new system.
+  Afterwards, you should be good to go!
