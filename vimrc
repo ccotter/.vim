@@ -1,3 +1,4 @@
+
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
@@ -73,12 +74,11 @@ set cursorline
 hi CursorLine term=bold cterm=bold guibg=Grey40
 
 set laststatus=2
-set statusline=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
+set statusline=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P,%{SyntasticStatuslineFlag()}
 set history=1000
 
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
 
 autocmd Filetype xml setlocal ts=2 sw=2
-
 
