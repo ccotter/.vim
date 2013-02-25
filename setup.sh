@@ -1,2 +1,2 @@
 mkdir ~/.vim/tmp
-mldir ~/.vim/backup
+mkdir ~/.vim/backup
