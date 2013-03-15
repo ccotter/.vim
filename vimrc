@@ -81,4 +81,5 @@ highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
 
 autocmd Filetype xml setlocal ts=2 sw=2
+autocmd Filetype html setlocal ts=2 sw=2
 
