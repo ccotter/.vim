@@ -85,4 +85,5 @@ match OverLength /\%81v.\+/
 
 autocmd Filetype xml setlocal ts=2 sw=2
 autocmd Filetype html setlocal ts=2 sw=2
+autocmd Filetype json setlocal ts=2 sw=2
 
