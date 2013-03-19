@@ -3,6 +3,9 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+let g:syntastic_c_compiler_options = '-Wall -Wextra -Werror'
+let g:syntastic_cpp_compiler_options = '-Wall -Wextra -Werror'
+
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
 set background=light
